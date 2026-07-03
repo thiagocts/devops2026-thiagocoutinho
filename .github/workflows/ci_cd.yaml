@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: "Olá Mundo"
         run: echo "Olá GitHub Actions!"
-      - name: "Sleep"
+      - name: Sleep
         run: Sleep 1
       - name: "Outro Echo"
         run: echo "Echo qualquer coisa"
