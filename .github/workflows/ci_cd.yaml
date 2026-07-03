@@ -10,7 +10,7 @@ jobs:
       - name: "Olá Mundo"
         run: echo "Olá GitHub Actions!"
       - name: Sleep
-        run: Sleep 1
+        run: sleep 1
       - name: "Outro Echo"
         run: echo "Echo qualquer coisa"
 
