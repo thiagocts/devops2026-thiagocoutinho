@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  integração-contínua:
+  integracao-continua:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -18,7 +18,7 @@ jobs:
         run: echo "Echo qualquer coisa"
 
   estagio2:
-    needs: integração-contínua
+    needs: integracao-continua
     runs-on: ubuntu-latest
     steps:
       - name: "Sleep"
