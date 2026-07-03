@@ -18,7 +18,7 @@ jobs:
         run: echo "Echo qualquer coisa"
 
   estagio2:
-    needs: estagio1
+    needs: integração-contínua
     runs-on: ubuntu-latest
     steps:
       - name: "Sleep"
