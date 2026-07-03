@@ -16,7 +16,7 @@ jobs:
       - name: "Sleep"
         run: echo "Sleep 5"
   estagio3:
-    needs: estagio2
+  needs: estagio2
     runs-on: ubuntu-latest
     steps:
       - name: "Sleep"
