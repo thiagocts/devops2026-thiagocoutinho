@@ -2,16 +2,17 @@ name: "Exemplo pipeline"
 
 on:
   workflow_dispatch:
+  push: [main]
 
 jobs:
-  estagio1:
+  integração-contínua:
     runs-on: ubuntu-latest
     steps:
-      - name: "Olá Mundo"
-        run: echo "Olá GitHub Actions!"
-      - name: Sleep
-        run: sleep 1
-      - name: "Outro Echo"
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Listagem de conteúdo do diretório
+        run: ls -la
+      - name: Outro Echo
         run: echo "Echo qualquer coisa"
 
   estagio2:
