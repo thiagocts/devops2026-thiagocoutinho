@@ -1,0 +1,11 @@
+name: "Exemplo pipeline"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  estagio1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Olá Mundo"
+        run: echo "Olá GitHub Actions!"
