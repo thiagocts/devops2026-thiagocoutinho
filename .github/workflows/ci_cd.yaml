@@ -10,11 +10,13 @@ jobs:
       - name: "Olá Mundo"
         run: echo "Olá GitHub Actions!"
   estagio2:
+  needs: estagio1
     runs-on: ubuntu-latest
     steps:
       - name: "Sleep"
         run: echo "Sleep 5"
   estagio3:
+    needs: estagio2
     runs-on: ubuntu-latest
     steps:
       - name: "Sleep"
