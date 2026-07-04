@@ -12,9 +12,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Listagem de conteúdo do diretório
-        run: ls -la
-      - name: Outro Echo
+      - name: Instalação de dependências
+        run: pip install -r requirements.txt
+      - name: Testes unitários
         run: echo "Echo qualquer coisa"
 
   estagio2:
