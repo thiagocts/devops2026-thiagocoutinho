@@ -38,7 +38,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build image
-        run: docker build -t thiagocts/devops2026:latest .
+        run: docker build -t thiagocts/pedro-rocha-horchulhack:27-06-26 .
 
       - name: Push image
-        run: docker push thiagocts/devops2026:latest
+        run: docker push thiagocts/pedro-rocha-horchulhack:27-06-26
