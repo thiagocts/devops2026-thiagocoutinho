@@ -5,5 +5,5 @@
 Este repositório contém a implementação de uma aplicação web desenvolvida em Flask, integrada a um pipeline de CI/CD automatizado com GitHub Actions.
 
 ---
-## 🚀 Sobre o Projeto
+##  Sobre o Projeto
 Sistema de gerenciamento de livros com integração contínua e entrega contínua.
